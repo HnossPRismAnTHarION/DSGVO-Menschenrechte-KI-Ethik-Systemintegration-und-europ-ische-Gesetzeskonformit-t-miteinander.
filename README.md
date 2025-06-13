@@ -173,7 +173,9 @@ pip install -r requirements.txt
 python codex_click_installer.py
 ```
 
-The resulting executable will appear in the `dist/` directory.
+The script will automatically install PyInstaller if it's not already
+available on your system. The resulting executable will appear in the
+`dist/` directory.
 
 
 Run this script on each platform (Windows, macOS, Linux) to produce the corresponding executable.
