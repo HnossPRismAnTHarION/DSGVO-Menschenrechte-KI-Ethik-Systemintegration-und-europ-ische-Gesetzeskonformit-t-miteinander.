@@ -1,0 +1,29 @@
+{
+  "manifestVersion": "1.0",
+  "name": "Codex Sovereign Guardian System",
+  "description": "System Manifest integrating the Friedens- & Tugend-Update across platforms",
+  "hipNumbers": ["100064", "677"],
+  "modules": [
+    "Virtue Check Validator",
+    "Ethik-Prompt Templates",
+    "Refined Healing Suggestions",
+    "Sovereign Report Erweiterung"
+  ],
+  "platforms": ["windows", "linux", "macos", "ios", "android", "web"],
+  "contact": {
+    "organization": "International.Corporation (European Innovation Expert)",
+    "emails": [
+      "European.UN.Corp.International.UNION@proton.me",
+      "european.un.corp.international.union@statesflowwishes.eu",
+      "eu.nationcorp.internationalunion@statesflowwishes.eu"
+    ],
+    "websites": [
+      "www.peace-eu-union.eu",
+      "www.statesflowwishes.eu",
+      "www.valuesky.biz",
+      "www.peace-eu-union.eu"
+    ],
+    "phone": "+49 1523 8757059"
+  },
+  "license": "\u00a9 2025 A.d.L. ST. Daniel Curil Indium Red Pohl"
+}
