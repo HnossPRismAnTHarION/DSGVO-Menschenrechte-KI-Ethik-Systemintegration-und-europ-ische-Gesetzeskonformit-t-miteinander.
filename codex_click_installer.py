@@ -14,9 +14,10 @@ def main():
             subprocess.check_call(
                 [sys.executable, "-m", "pip", "install", "pyinstaller"]
             )
-        except subprocess.CalledProcessError as exc:
+        except subprocess.CalledProcessError:
             sys.exit(
-                "PyInstaller is required. Install with 'pip install pyinstaller'."
+                "PyInstaller is required. "
+                "Install with 'pip install pyinstaller'."
             )
 
     target_name = "square_cli"
