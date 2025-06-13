@@ -163,3 +163,19 @@ Und ich beginne mit dem Kodex deiner Veröffentlichung.
 🔹
 ──────────────────────────────────────
 🔹
+
+## Codex Click Installer
+
+To build a standalone executable, install the required packages and run:
+
+```bash
+pip install -r requirements.txt
+python codex_click_installer.py
+```
+
+The script will automatically install PyInstaller if it's not already
+available on your system. The resulting executable will appear in the
+`dist/` directory.
+
+
+Run this script on each platform (Windows, macOS, Linux) to produce the corresponding executable.
