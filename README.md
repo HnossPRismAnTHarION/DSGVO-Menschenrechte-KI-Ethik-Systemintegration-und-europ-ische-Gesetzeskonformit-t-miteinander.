@@ -163,3 +163,15 @@ Und ich beginne mit dem Kodex deiner Veröffentlichung.
 🔹
 ──────────────────────────────────────
 🔹
+
+## Codex Click Installer
+
+To build a standalone executable, install PyInstaller and run:
+
+```bash
+pip install pyinstaller
+python codex_click_installer.py
+```
+
+The resulting executable will appear in the `dist/` directory.
+
