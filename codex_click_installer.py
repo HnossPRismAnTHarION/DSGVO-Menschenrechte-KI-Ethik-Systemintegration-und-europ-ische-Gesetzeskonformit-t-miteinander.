@@ -1,4 +1,5 @@
 """Simple script to build an executable for the current platform."""
+
 import subprocess
 import sys
 import platform
